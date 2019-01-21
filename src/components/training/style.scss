@@ -1,0 +1,15 @@
+
+.training{
+  .operateItem{position:relative;text-align:left;background:#fff;height:62px;line-height:62px;padding:0 20px;
+    .field{display:inline-block;width:130px;height:32px;line-height:32px;border:1px solid #ccc;border-radius: 5px;text-align:center;cursor: pointer;
+    img{width:10px;height:5px;vertical-align: middle;margin-left:8px;}}
+    .allChoice{position:absolute;top:56px;left:20px;z-index:8;background:#fff;border:1px solid #e6e5e5;box-shadow:0 0 10px #d0cfcf;border-radius:6px;
+        p{width:170px;height:30px;line-height: 30px;margin:5px 0;
+        input{vertical-align: middle;margin:0 6px 0 26px;outline: none;}}
+        .all_check{margin:0;height:40px;line-height:40px;background:#f6f7f1;
+        img{margin-right:6px;vertical-align: middle;}}
+        .pitch{background:#e4fdfc;}
+    }
+    a{margin: 0 10px;}
+  }
+}

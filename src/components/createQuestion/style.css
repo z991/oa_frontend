@@ -1,0 +1,23 @@
+.createQuestions .main_info .el-form-item__label {
+    text-align: left;
+}
+.createQuestions  .el-checkbox-group .el-checkbox {
+    width: 33.3%;
+    text-align: left;
+    margin: 0;
+}
+
+.createQuestions .unnecessary .el-form-item__label{
+    padding-left: 10px;
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1399px) {
+    .createQuestions  .el-checkbox-group .el-checkbox {
+        width: 50%;
+    }
+}
+@media screen and (min-width: 999px) and (max-width: 1199px) {
+    .createQuestions  .el-checkbox-group .el-checkbox {
+        width: 100%;
+    }
+}

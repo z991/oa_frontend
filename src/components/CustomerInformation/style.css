@@ -1,0 +1,25 @@
+.listContent .el-table td, .el-table th{
+    padding: 3px 0 !important;
+}
+
+.boxContent .el-input , .boxContent .el-input .el-input__inner{
+    height: 35px;
+}
+.box .boxContent ul li .componyAdd {
+    display: flex !important;
+    justify-content: space-between;
+}
+.boxContent .componyAdd .el-select {
+    width: 25%;
+}
+.boxContent .componyAdd>.el-input {
+    width: 45%;
+}
+
+.boxContent .el-textarea__inner {
+    max-height: 160px;
+}
+.boxContent .upload-demo .el-upload, .boxContent .upload-demo  .el-upload-dragger{
+    width: 100%;
+}
+.customerInfo .create{margin-left: calc(100% - 340px);}

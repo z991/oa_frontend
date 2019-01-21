@@ -1,0 +1,38 @@
+.Robot{
+  width:100%;
+  height:100%;
+  text-align:left;
+  .headerSearch{
+    background:#fff;
+    border-radius:5px;
+    padding:10px 20px;
+    box-sizing:border-box;
+    .SearchItem{
+      width:250px;
+      display:inline-block;
+      margin:7px 0;
+      label{
+        font-size:12px;
+        display:inline-block;
+        width:60px;
+      }
+    }
+    button{
+
+    }
+  }
+  .cerateLibrary{
+    margin:10px 0 10px 20px;
+  }
+  .Main{
+    background:#fff;
+    margin-top:15px;
+    border-radius:5px;
+    .Main-Title{
+      padding:12px;
+      box-sizing:border-box;
+      color:#666666;
+
+    }
+  }
+}

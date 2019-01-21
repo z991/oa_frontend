@@ -1,0 +1,40 @@
+.sales{
+   width:100%;
+   height:100%;
+   text-align:left;
+  .headerSearch{
+    background:#fff;
+    border-radius:5px;
+    padding:10px 20px;
+    box-sizing:border-box;
+    section {
+      float: right;
+      width: 210px;
+    }
+    .SearchItem{
+    width:30%;
+    display:inline-block;
+    margin:7px 0;
+      label{
+        font-size:12px;
+        display:inline-block;
+        width:60px;
+      }
+    }
+    button{
+      float:right;
+      margin:0 5px;
+      position:relative;
+      top:5px;
+
+    }
+  }
+  .cerateLibrary{
+    margin:10px 0 10px 20px;
+  }
+  .MainSearch{
+    background:#fff;
+    margin-top:15px;
+    border-radius:5px;
+  }
+}

@@ -1,0 +1,109 @@
+.chanp .el-message-box {
+    width: 500px;
+}
+
+ .chanp .el-message-box__header {
+    padding: 15px;
+}
+.chanp .el-message-box__content {
+    width: 100%;
+    box-sizing: border-box;
+    margin: auto;
+    padding: 20px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.chanp .el-message-box__status {
+    top: -30%;
+    left: 12%;
+}
+.chanp .el-message-box__message {
+    width: 20%;
+    
+}
+.chanp .el-message-box__message p {
+        width: 100%;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+    }
+.chanp .el-message-box__input {
+    width: 80%;
+    padding-right: 10%;
+    padding-top: 0;
+}
+.chanp .el-message-box__errormsg {
+    display: none;
+}
+.chanp.el-message-box__btns {
+    padding-top: 10px;
+}
+
+.chanp .el-dialog__wrapper {
+    height: 100%;
+    overflow-y: hidden;
+}
+.chanp .el-dialog {
+    overflow-y: hidden; 
+    text-align: center;
+    background-color: #fff;
+    border-radius: 5px;
+    width: 550px;
+    height: 600px;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.chanp .el-dialog__header {
+    text-align: left;
+    padding-top: 10px;
+    
+}
+.chanp .el-dialog__header .el-dialog__headerbtn {
+    top: 15px;
+}
+.chanp .el-dialog__footer {
+    padding: 15px;
+}
+.chanp .el-dialog__body {
+    padding: 20px;
+    height: 450px;
+    overflow-y: scroll;
+}
+.chanp .el-dialog__body .el-form {width: 100%}
+.chanp .el-form-item {
+    width: 90%;
+    margin: 0 auto 15px;
+    
+}
+.chanp .el-form-item label {
+    text-align: left;
+    padding-left: 10px;
+}
+.chanp .el-form-item .el-form-item {
+    margin-bottom: 15px;
+}
+
+.chanp .el-form-item__content {
+    text-align: left;
+}
+.chanp .el-form-item__content .el-input, 
+.chanp .el-form-item__content .el-select{
+    width: 95%;
+}
+.chanp .el-form-item__content .el-select .el-input {width: 100%;}
+.chanp .el-radio__inner {
+    width: 18px;
+    height: 18px;
+}
+.chanp .el-radio + .el-radio {margin-left: 20px;}
+
+.chanp .el-radio-group,
+.chanp .formContainer {
+    width: 90%;
+    padding-right: calc(5% - 4px);
+    box-sizing: border-box;
+}

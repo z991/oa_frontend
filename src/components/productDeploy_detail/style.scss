@@ -1,0 +1,59 @@
+/*
+ * @Author: liuqian 
+ * @Date: 2018-12-06 15:50:27 
+ * @Last Modified by: liuqian
+ * @Last Modified time: 2018-12-21 17:06:44
+ */
+ .productDeploy_detail{font-size:14px;color:#666;
+  .fl{float:left;}.fr{float:right;}
+  .clear:after{display: block;clear:both;content: "";}
+  .detailTitle{background:#fff;height:78px;line-height: 78px;margin-bottom:14px;padding-right:20px;
+    .goback{margin:0 10px 0 14px;}
+    .explain{margin-top:12px;line-height: 26px;margin-left:20px;}
+  }
+  .content{text-align:left;display: flex;justify-content: space-around;
+    .contentDetail{width:53%;background:#fff;border-radius: 5px;overflow: hidden;
+      .actionCarry{background:#fff;height:52px;line-height:52px;border-bottom:1px solid #eee;padding:0 20px;}
+      .issueDetail{margin-bottom:14px;}
+      .issueDetail,.dateDetail{background:#fff;
+        .trainTitle{line-height: 56px;padding:0 60px;
+          .statusValue{border:1px solid #0086f2;border-radius:5px;color:#0086f2;padding: 6px 14px;}
+        }
+        .detailShow{padding:0 30px;padding-bottom:26px;
+          p{line-height:28px;
+            label{display:inline-block;width:27%;color:#a7a7a7;text-align:right;padding-right:24px;}
+            .downFile{float:right;img{width:16px;height:16px;vertical-align: middle;}}
+          }
+        }
+      }
+      .dateDetail{.trainTitle{border-bottom:1px solid #eee;}}
+    }
+    .trainRecord{background:#fff;width: calc(47% - 16px);border-radius: 5px;overflow: hidden;
+      .tableHead{
+        // height:46px;line-height:46px;
+        .listsContainer {
+          li{margin-left: 30px;box-sizing: border-box;position: relative;display: flex;justify-content: flex-start;
+            .listLeft {width: 10px;
+              .circle {margin-top: 13px;width: 10px;height: 10px;border-radius: 50%;background: #409EFF;
+                &:hover {cursor: pointer;}
+              }
+              .line {border-left: 1px solid #e3e6e7;margin-left: 4px; height: calc(100% - 10px);}
+            }
+            .listRight {width: calc(100% - 40px);
+              .listTit {height: 35px;line-height: 35px;overflow: hidden;display: flex;justify-content: space-between;}
+              .listDesc {width: 60%;text-align: left;padding-left: 5px;
+                &:hover {cursor: pointer;}
+              }
+              .listTime {width: 40%;color: #b6b6b8;}
+              .listContent {margin-bottom: 15px;}
+              .listContent>div{text-align: left;padding-left: 10px;}
+              .listContent ul li{height: 30px;line-break: 30px;color: #a6a8a8;margin: 5px 0 5px 5px;}
+              .listFooter {margin: 10px 0;border-bottom: 1px dotted #3f3f3f;}
+            }
+          }
+          li:last-child {.line, .listFooter {display: none;}}
+        }
+      }
+    }
+  }
+}

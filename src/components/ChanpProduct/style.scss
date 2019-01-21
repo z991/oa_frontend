@@ -1,0 +1,49 @@
+.qu {
+    border-radius: 5px;
+    text-align: left;
+    padding-left: 10px;
+}
+.ji {
+    margin: 10px auto;
+    input{margin-right: calc(100% - 490px)}
+    .so {margin: 10px}
+    label {height: 40px;line-height: 40px;}
+}
+// .bian{background:url(../../assets/bian1.png) no-repeat center;}
+// .dele{background:url(../../assets/dele.png) no-repeat center}
+
+.formContainer {margin-bottom: 0;}
+.item_header {
+    background: #f6f6f6;
+    height: 40px;
+    .el-icon-delete {
+        float: right;
+        margin-top: 13px;
+        margin-right: 15px;
+    }
+}
+.optionType {
+    width: 100%;
+    margin: 0 auto 20px; 
+    border: 1px solid #dcdfe6;
+    border-radius: 5px;
+    .el-form-item  {
+        width: 100%;
+        box-sizing: border-box;
+        .el-icon-delete:hover {cursor: pointer;}
+        .el-input  {width: 92%;}
+        .condition {width: 70%}
+    }
+    .el-form-item__content {
+        .el-select {width: 80%;}
+        .el-select .el-input {width: 100%;}
+        .el-button {margin-left: 2.5%;}
+        span{margin: auto 8px;}
+    }
+}
+
+
+.wid5 a:link {color: #666666;}
+.wid5 a:visited {color: #666666;}
+.wid5 a:hover{color: #666666;}
+.wid5 a:active {color: #666666;}

@@ -1,0 +1,33 @@
+/*
+ * @Author: liuqian 
+ * @Date: 2018-08-06 16:54:23 
+ * @Last Modified by: liuqian
+ * @Last Modified time: 2018-08-17 10:49:26
+ */
+ .business{width:100%;height:100%;
+	.fl{float:left;}.fr{float:right;}.mar30{margin-bottom:30px;}
+    .clear:after{display: block;clear:both;content: "";}
+    .searchTerm{height:70px;line-height:70px;padding-left: 30px;background:#fff;font-size: 14px;color:#666;border-radius: 6px;text-align:left;font-weight:bold;
+        .el-input{width:20%;margin: 0 18px 0 8px;}.el-range-editor.el-input__inner{margin: 0 18px 0 8px;}
+    }
+    .deploy{width:100%;height:450px;background:#fff;margin:15px 0;border-radius: 6px;overflow: hidden;
+        input[type=radio]{width:16px;height:16px;vertical-align: middle;margin-right: 6px;}
+        .inforLine{
+            .deployTitle{box-sizing: border-box;width:100%;height:50px;padding-left:30px;line-height: 50px;
+            border-bottom: 1px solid #dcdcdc;font-weight:bold;font-size: 14px;color:#333;text-align:left;}
+            .compare{font-size: 14px;padding-left:30px;color:#666;line-height: 52px;text-align:left;input{vertical-align:middle;margin-right: 5px;}}
+        }
+    }
+    // 企业名称
+    .company_name {
+        background: #fff;
+        width: 100%;
+        height: 40px;
+        line-height: 40px;
+        margin: 15px 0;
+        text-align: left;
+        font-size: 20px;
+        padding-left: 25px;
+        font-weight: bold;
+    }
+}

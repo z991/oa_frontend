@@ -1,0 +1,284 @@
+@import "../assets/home";
+.conten {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+}
+.main {
+  width: 100%;
+  height: calc(100% - 60px);
+}
+a {
+  color: white;
+}
+
+.header {
+  height: 60px;
+  // background-color: #515c6e;
+  background: #2A323E;
+  width: 100%;
+  img {
+    margin: 14px 15px 0;
+  }
+  #lan {
+    padding: 0 !important;
+  }
+  img,
+  .list,
+  .list li,
+  span {
+    float: left;
+  }
+}
+
+.shooo {
+  width: 110px;
+  background-color: #515c6e;
+  color: white;
+  position: relative;
+  z-index: 100;
+}
+
+.sholi {
+  height: 30px !important;
+  width: 110px !important;
+  line-height: 30px !important;
+  padding: 0 !important;
+  background-color: #515c6e;
+  a {
+    display: inline-block;
+    width: 110px !important;
+    height: 100%;
+  }
+}
+
+.sholi:hover {
+  background-color: #7b8391;
+}
+
+.sho1,
+.sho2,
+.sho3 {
+  position: absolute;
+}
+
+.sho1 {
+  left: 663px;
+}
+
+.sho2 {
+  left: 852px;
+}
+
+.sho3 {
+  left: 110px;
+  top: 0px;
+  width: 110px;
+  background-color: #515c6e;
+  position: absolute;
+  z-index: 100;
+  li {
+    margin-bottom: 3px;
+  }
+}
+
+.list li {
+  height: 72px;
+  line-height: 72px;
+  width: 110px;
+  text-align: center;
+  padding: 0 !important;
+  a {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+}
+
+// 个人信息
+.pnn {
+  // position: absolute;
+  right: 40px;
+  width: 200px;
+  height: 60px;
+  line-height: 60px;
+  color: white;
+  overflow: hidden; 
+  text-overflow:ellipsis; 
+  white-space: nowrap;
+}
+.el-dropdown{
+  color: #fff;
+  &:hover {
+    cursor: pointer;
+  }
+}
+.el-dropdown-link{
+  display: inline-block;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+}
+.el-dropdown-menu {
+  width: 120px;
+  text-align: center;
+}
+.el-icon-arrow-down {
+  padding: 0 5px;
+}
+.pi {
+  position: absolute;
+  top: 20px;
+  right: 5px;
+  background: url(../assets/pi.png) no-repeat left;
+  width: 60px;
+  height: 30px;
+  line-height: 30px;
+  cursor: pointer;
+  color: white;
+}
+
+.list li:hover {
+  background-color: #0386f0;
+  cursor: pointer;
+  a {
+    color: white;
+  }
+}
+
+
+// --------------------------oa样式重构------------------------------
+.el-header {
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+}
+.el-header  .menu{
+  width: 32px;
+  height: 32px;
+  margin: 14px;
+  float: right;
+  background-size: 100%;
+  &:hover{
+    cursor: pointer;
+  }
+}
+.el-menu {
+  height: 100%;
+}
+.el-menu-item p, .el-submenu p {
+  width: 14px;
+  height: 14px;
+  display: inline-block;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  transition: 1s;
+}
+.header_left, .header_right{
+  height: 60px;
+}
+.header_left {
+  width: 214px;
+}
+.header_right {
+  // width:  480px;
+  margin-right: 20px;
+  display: flex;
+  justify-content: space-around;
+  .el-dropdown {
+    width: 150px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    color: white;
+    overflow: hidden; 
+    text-overflow:ellipsis; 
+    white-space: nowrap;
+    i {
+      margin: 0 10px;
+    }
+  }
+  .el-dropdown:nth-child(2) {
+    width: 120px;
+  }
+  .notice {
+    width: 80px;
+    height: 60px;
+    line-height: 60px;
+    color: white;
+    overflow: hidden; 
+    text-overflow:ellipsis; 
+    white-space: nowrap;
+    position: relative;
+    &:hover{
+      cursor: pointer;
+    }
+    .el-dropdown-link span{ 
+      width: calc(100% - 20px);
+      text-align: center;
+    }
+    .notice_count {
+      position: absolute;
+      top: 14px;
+      right: 5px;
+      width: 16px;
+      height: 16px;
+      line-height: 16px;
+      font-size: 8px;
+      border-radius: 50%;
+      background: #ee383c;
+    }
+  }
+}
+.isCollapsed{
+  width: calc(100% - 65px);
+}
+.isNoCollapsed{
+  width: calc(100% - 200px);
+}
+// 导航宽度控制
+.isShowOpen {
+  width: 200px;
+}
+// 导航小图标
+.nav_bgClass {
+  width: 18px !important;
+  height: 18px !important;
+}
+.slide-fade-enter-active{                
+  transition: all .2s ease;  
+}
+// .slide-fade-leave-active{                
+//   transition: all .2s ease;  
+// }
+// .slide-fade-leave {
+//   width: 65px;
+// }
+.slide-fade-enter{
+  width: 200px;
+}
+
+// menu切换
+.unActive {
+  background: url(../assets/aside_icon/open.png) no-repeat center;
+}
+.active {
+  background: url(../assets/aside_icon/close.png) no-repeat center;
+}
+.currVer{color:#fff;line-height: 60px;}
+
+// Breadcrumb 面包屑
+.el-breadcrumb {
+  width: 100%;
+  box-sizing: border-box;
+  height: 40px !important;
+  margin-bottom: 15px;
+  line-height: 40px;
+  background: #fff;
+  border-radius: 5px;
+  padding-left: 15px;
+  &:hover{cursor: pointer;}
+}

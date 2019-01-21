@@ -1,0 +1,14 @@
+/*
+ * @Author: liuqian 
+ * @Date: 2018-12-06 14:06:58 
+ * @Last Modified by: liuqian
+ * @Last Modified time: 2018-12-06 14:57:23
+ */
+.productDeployList{
+  .fl{float:left;}.fr{float:right;}
+  .clear:after{display: block;clear:both;content: "";}
+  .detailTitle{background:#fff;height:78px;line-height: 78px;margin-bottom:14px;padding-right:20px;
+    .goback{margin:0 10px 0 14px;img{vertical-align: middle;}}
+    .explain{margin-top:12px;line-height: 26px;margin-left:20px;}
+  }
+}

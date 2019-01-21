@@ -1,0 +1,76 @@
+.ren .el-dialog__wrapper {
+    height: 100%;
+    overflow-y: hidden;
+}
+.ren .el-dialog {
+    overflow-y: scroll; 
+    text-align: center;
+    background-color: #fff;
+    border-radius: 5px;
+    width: 600px;
+    height: 500px;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.ren .el-dialog__header {
+    text-align: left;
+    padding-top: 10px;
+    font-size: 16px;    
+}
+.ren .el-dialog__footer {
+    padding: 15px;
+}
+.ren .el-dialog__body {
+    padding: 20px;
+    /* height: 350px; */
+}
+.ren .el-dialog__header .el-dialog__headerbtn {
+    top: 15px;
+}
+.ren .el-dialog__header .el-dialog__title {
+    font-size: 16px;  
+}
+.ren .el-button {
+    padding: 8px 15px;
+}
+
+.ren .el-form-item__label {
+    text-align: center;
+}
+.ren .el-form-item__content {
+    display: flex;
+    justify-content: space-between;
+}
+.ren .el-form-item__content .el-input {
+    width: calc(100% - 20px);
+}
+.ren .el-form-item__content  .ii {
+    width: 20px;
+}
+.ren .rules .el-form-item__content {
+    display: block;
+    text-align: left;
+}
+.ren .el-checkbox-group {
+    overflow-x: hidden;
+}
+.ren .checkbox_container {
+    width: 103%;
+    padding: 0 5px;
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+.ren .el-checkbox-group .el-checkbox {
+    margin-left: 0;
+    width: 30%;
+    white-space:nowrap; 
+    overflow:hidden; 
+    text-overflow:ellipsis;
+}

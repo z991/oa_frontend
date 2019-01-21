@@ -1,0 +1,122 @@
+.ct-Notification{
+  width:100%;
+  height: 100%;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  //background: #000000;
+  //filter: alpha(opacity=30);
+  //-moz-opacity: 0.5;
+  //-khtml-opacity: 0.5;
+  //opacity: 0.5;
+
+  z-index:998;
+  .ct-NotifiBody{
+    width: 280px;
+    height: calc(100% - 120px);
+    position:absolute;
+    top:90px;
+    right:20px;
+    z-index:99999;
+    border-radius:5px;
+    padding-bottom: 10px;
+    vertical-align: middle;
+    background-color: #fff;
+    border: 1px solid #ebeef5;
+    font-size: 18px;
+    box-shadow: 0 2px 12px 0 rgba(0,0,0,.1);
+    backface-visibility: hidden;
+  }
+.ct-Title{
+  height:42px;
+  line-height: 42px;
+  width:100%;
+  display: flex;
+  padding: 0 10px;
+  box-sizing: border-box;
+  justify-content: space-between;
+  border:1px solid #eeeeee;
+  color: #656565;
+  font-weight: bold;
+  .el-icon-close{
+    line-height: 50px;
+    font-size:20px;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+.listsContainer {
+  li{
+    margin-left: 10px;
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    .listLeft {
+      width: 10px;
+      .circle {
+        margin-top: 13px;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background: #409EFF;
+        &:hover {
+          cursor: pointer;
+        }
+      }
+      .line {
+        border-left: 1px solid #e3e6e7;
+        margin-left: 4px;
+        height: calc(100% - 10px);
+      }
+    }
+    .listRight {
+      padding-left:10px;
+      width: calc(100% - 40px);
+      .listTit {
+        height: 35px;
+        line-height: 35px;
+        overflow: hidden;
+        display: flex;
+        justify-content: space-between;
+      }
+      .listDesc {
+        width: 60%;
+        text-align: left;
+        padding-left: 5px;
+        &:hover {
+          cursor: pointer;
+        }
+      }
+      .listTime {
+        color: #b6b6b8;
+      }
+      .listContent {
+        margin-bottom: 15px;
+      }
+      .listContent ul li{
+        height: 30px;
+        line-break: 30px;
+        color: #a6a8a8;
+        margin: 5px 0 5px 5px;
+      }
+      .listFooter {
+        margin: 10px 0;
+        border-bottom: 1px dotted #3f3f3f;
+      }
+    }
+  }
+  li:last-child {
+    .line, .listFooter {
+      display: none;
+    }
+  }
+}
+}
+.fade-enter-active, .fade-leave-active {
+  transition: opacity 1.5s;
+}
+.fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+  opacity: 0;
+}

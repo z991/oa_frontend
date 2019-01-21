@@ -1,0 +1,42 @@
+.DS_Store
+node_modules/
+dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+test/unit/coverage
+test/e2e/reports
+selenium-debug.log
+
+# Editor directories and files
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+## 编译相关
+*.py[cod]
+*.so
+node_modules/
+__pycache__/
+
+## 操作系统IDE相关
+*.swp
+*.DS_Store
+.idea
+
+## 数据库导出相关
+*.rdb
+*.sql
+db.sqlite3
+db_backup/
+
+## 项目相关
+media/
+dist/
+local_settings.py
+log/
+celerybeat-schedule
+celerybeat.pid
+*.log

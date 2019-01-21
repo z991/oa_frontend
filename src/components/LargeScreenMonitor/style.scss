@@ -1,0 +1,41 @@
+#container {
+    width: 100%;
+    min-height: 100%;
+    background: #ffffff;
+    border-radius: 5px;
+}
+.bg_container {
+    overflow: hidden;
+    .bg_img {
+        width: 557px;
+        height: 388px;
+        margin: 104px auto 0;
+        background: url(../../assets/chanpin/daping.png) no-repeat center 100%;
+    }
+}
+.bg_info {
+    width: 100%;
+    margin-top: 60px;
+    text-align: center;
+    div {
+        font-size: 24px;
+        font-weight: bold;
+        margin: 9px auto;
+    }
+    span {
+        display: inline-block;
+        width: 100%;
+        margin: 9px auto;
+        font-size: 16px;
+        color: #333333
+    }
+    a{
+        display: inline-block;
+        margin: 10px auto;
+        color: #0386f0;
+        padding-bottom: 50px;
+        &:hover{
+            cursor: pointer;
+        }
+    }
+}

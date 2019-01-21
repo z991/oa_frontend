@@ -1,0 +1,91 @@
+// @import '../../assets/home';
+    .c0{margin-left:22px;width:160px;}
+    .c1{width:200px;}
+    .c2{width:200px;}
+    .c3{width:200px;}
+    .c4{width:200px;}
+    .xin{height:52px;background-color: white;text-align:left;border-radius: 5px 5px 0 0 }
+    .cha,.bian,.delete{width:20px;height:20px;display:inline-block;}
+    .cha{background:url(../../assets/cha1.png) no-repeat center;margin-right:20px;}
+    // .bian{background:url(../../assets/bian1.png) no-repeat center}
+    // .delete{background:url(../../assets/dele.png) no-repeat center;}
+    .message{width:260px;height:357px;background:url(../../assets/bei.png) no-repeat top;background-color:white;position:absolute;z-index:5;
+    left:1030px;top:260px;border:1px solid gray;border-radius:5px;
+    .mesn{width:80px;height:80px;border-radius:50%;border:2px solid #fff;background-color:#515c6e;color:#fff;line-height: 80px;font-size:16px;
+    position:absolute;top:54px;left:84px;}
+    .bao{position:relative;top:170px;text-align:center;}
+    .pp{position:relative;top:160px;
+        p{margin:7px;color:#666666;font-size:14px;}
+        label,span{display:inline-block;}
+        label{width:80px;margin-right:24px;text-align: right;}
+        span{width:120px;text-align: left;}
+    }
+    }
+    .af{width:540px;height:392px;background-color:#fff;position:absolute;z-index:11;top:30%;left:35%;
+        .afb{width:100%;height:50px;line-height:50px;border-bottom:1px solid gray;position:relative;
+        i{background:url(../../assets/close.png) no-repeat;display:inline-block;width:11px;height:11px;position:absolute;top:20px;right:20px;}}
+        .afm{margin:30px 10px;font-size:14px;border-bottom:1px solid gray;
+        p{text-align:left;margin-bottom:15px;}
+        label,input{display:inline-block;}
+        label{width:60px;margin-right:28px;text-align:right;margin-left:20px;}
+        input{width:330px;text-align:left;padding:5px 10px;}
+        }
+        
+    }
+    .sear{display: inline-block;}
+    .bao{text-align:right;margin-right:20px;
+        a{display:inline-block;padding:5px 8px;border:1px solid gray;border-radius:5px;margin:5px;}
+        .quu{color:#515c6e}.qub{color:#fff;background-color:#0386f0}}
+        .delete{margin-left: 10px;}
+        .wid4 a:link {color: #666666;}
+        .wid4 a:visited {color: #666666;}
+        .wid4 a:hover{color: #666666;}
+        .wid4 a:active {color: #666666;} 
+
+// ----------------------------样式修改-----------------------------------
+.ji {
+    background: #fff;
+    overflow: hidden;
+    box-sizing: border-box;
+    margin: 0 0 15px;
+    border-radius: 6px;
+    height: 60px;
+    section {
+        width: 100%;
+        height: 40px;
+        display: flex;
+        margin: 10px auto;
+        overflow: hidden;
+        justify-content: space-between;
+        .sear {
+            width: 280px;
+            height: 40px;
+            margin: 0 15px 0 0;
+            line-height: 40px;
+            display: flex;
+            justify-content: space-around;
+            label{
+                display: inline-block;
+                width: 30%;
+                height: 40px;
+                line-height: 40px;
+                text-align: left;
+            }
+            input {
+                width: 200px;
+                height: 34px;
+                margin: 3px 0 0;
+                box-sizing: border-box;
+            }
+        }
+        .so , .cho {
+            margin-top: 4px;
+        }
+        .so  {
+            margin-left: calc(100% - 800px);
+        }
+        .cho {
+            margin-right: 15px;
+        }
+    }
+}

@@ -1,0 +1,197 @@
+/*
+ * @Author: liuqian 
+ * @Date: 2018-09-13 14:01:43 
+ * @Last Modified by: liuqian
+ * @Last Modified time: 2018-12-26 09:52:33
+ */
+.informVersion{width:100%;
+  a:active{border:none;}a:active{border:none;}a:link{border:none;}
+  .allContent{display: flex;justify-content: space-between;width:100%;
+    .allVersion{width:23%;min-height:640px;background:#fff;border-radius: 5px;
+      .versionTitle{display:flex;justify-content: space-between;position:relative;height:46px;line-height: 46px;border-bottom:1px solid #eee;
+        .headline{text-align:left;padding-left:12px;img{vertical-align: middle;margin-left: 4px;}}
+        .addLow{display:inline-block;cursor:pointer;width:16px;height:16px;padding-left:30px;background:url(../../assets/addVer.png) no-repeat center center;}
+      }
+      
+      .versionRecord{
+        .firstGrade,.secondGrade,.thirdGrade{
+          .firstShow{display: flex;justify-content: space-between;padding: 0 10px;height:34px;line-height:34px;
+            .firstLeft{cursor:pointer;img{vertical-align: middle;margin-right:6px;};overflow: hidden;}
+            .firstOperate{
+              overflow: hidden;
+              a{display:inline-block;width:16px;height:16px;outline:none;}
+              .addLow{background:url(../../assets/addVer.png) no-repeat center center;}
+              .editCurrent{background:url(../../assets/bian2.png) no-repeat center center;}
+              .deleteCurr{background:url(../../assets/dele2.png) no-repeat center center;}
+              .firstSend{background:url(../../assets/release.png) no-repeat center center;}
+            }
+          }
+          .firstEdit{height:48px;line-height:48px;input{height:26px;line-height:26px;padding-left:5px;border:1px solid #eee;border-radius:4px;}img{vertical-align: middle;margin-left:6px;}}
+        .secondGrade{.firstLeft{padding-left:10px;}}
+        .pick{background:#eaf2fd;}
+        }
+        .secondGrade{.firstShow{padding-left:30px;}}
+        .thirdGrade{.firstShow{padding-left:70px;}}
+      }
+    }
+    .versionList{width:75%;min-height:640px;border-radius: 5px;overflow: hidden;
+      .createLine{height:62px;line-height: 62px;text-align:left;padding-left:14px;background:#fff}
+      .showVersion{
+          background:#fff;
+          border-radius:  0 0  5px 5px;
+          .title{background:#eef7ff;border-bottom: none;}
+        li{display: flex;justify-content: space-between;border-bottom:1px solid #eeeeee;
+          .wid5{width:20%;height:54px;line-height:54px;text-align: center;}
+          a{display: inline-block;width:16px;height:16px;}
+          .editInfo{background:url(../../assets/bian2.png) no-repeat center center;}
+          .deleteInfo{background:url(../../assets/dele2.png) no-repeat center center;}
+          .emailInfo{background:url(../../assets/release.png) no-repeat center center;}
+        }}
+        //进度条
+        .progressBar{background:#fff;margin:28px 0;text-align:left;
+            ul{padding: 40px 0;
+                .amongProduct{height:210px;border-bottom:2px dashed #cfcfcf;
+                    .firstHeadline{display:inline-block;width:80px;margin:0 5px;vertical-align: middle;}
+                    .allProcess{display:inline-block;margin-top:94px;
+                        .amongStep{display:flex;justify-content:space-between;
+                            .trabeculaBar{position:relative;width:120px;
+                                .serialNum{position:relative;display: inline-block;height:22px;width:22px;color:#a4a4a4;border:1px solid #dfdfdf;border-radius:50%;text-align:center;line-height:22px;
+                                    &:before,&:after{content: "";position:absolute;top:12px;width:48px;height:2px;background:#dfdfdf;}
+                                    &:before{right:24px;}
+                                    &:after{left:24px;}
+                                }
+                                .performBar{border:1px solid #0584eb;background:#0584eb;color:#fff;
+                                    &:before, &:after{background:#0584eb;}
+                                }
+                                .passiveRejectBar{border:1px solid #ebb960;background:#ebb960;color:#fff;
+                                    &:before{background:#0584eb;}&:after{background:#ebb960;}
+                                }
+                                .rejectBar{border:1px solid #ebb960;background:#ebb960;color:#fff;
+                                    &:before{background:#dfdfdf;}&:after{background:#dfdfdf;}
+                                }
+                                .operateExplain{position:absolute;left:-68px;top:28px;width:160px;text-align:center;font-size: 12px;
+                                    p{text-align:center;}
+                                    .operateBtn{display:inline-block;background: #0285f1;padding:2px;margin:0 2px;color:#fff;border-radius:3px;cursor:pointer;}
+                                }
+                                .overlap{top:-84px;}
+                            }
+                            .trabeculaBar:first-of-type{.serialNum{&:before{width:0;height:0;}}}
+                            .trabeculaBar:last-of-type{width:auto;.serialNum{&:after{width:0;height:0;}}}
+                        }
+                    }
+                }
+                .amongProduct:last-of-type{border-bottom:none;}
+            }
+        }
+
+        // 日期
+        .modifyRecord {
+            background:#fff;
+            border-radius: 5px;
+        }
+        .modifyRecord header {
+            height: 40px;
+            text-align: left;
+            line-height: 40px;
+            padding-left: 15px;
+            font-size: 18px;
+            border-bottom: 1px solid #e3e6e7;
+            margin-bottom: 10px;
+        }
+        .listsContainer {
+            li{
+                margin-left: 30px;
+                box-sizing: border-box;
+                position: relative;
+                display: flex;
+                justify-content: flex-start;
+                .listLeft {
+                    width: 10px;
+                    .circle {
+                        margin-top: 13px;
+                        width: 10px;
+                        height: 10px;
+                        border-radius: 50%;
+                        background: #409EFF;
+                        &:hover {
+                            cursor: pointer;
+                        }
+                    }
+                    .line {
+                        border-left: 1px solid #e3e6e7;
+                        margin-left: 4px;
+                        height: calc(100% - 10px);
+                    }
+                }
+                .listRight {
+                    width: calc(100% - 40px);
+                    .listTit {
+                        height: 35px;
+                        line-height: 35px;
+                        overflow: hidden;
+                        text-align: left
+                    }
+                    .listDesc {
+                        text-align: left;
+                        padding-left: 15px;
+                        &:hover {
+                            cursor: pointer;
+                        }
+                    }
+                    .listModel {
+                        color: #fff;
+                        min-width: 80px;
+                        text-align: center;
+                        background: #409EFF;
+                        height: 30px;
+                        line-height: 30px;
+                        border-radius: 5px;
+                        display: inline-block;
+                    }
+                    .listContent {
+                        margin-bottom: 15px;
+                        margin-left: 20px;
+                    }
+                    .listContent>div{
+                        text-align: left;
+                    }
+                    .listContent ul li{
+                        height: 30px;
+                        line-break: 30px;
+                        color: #a6a8a8;
+                        margin: 5px 0 5px 5px;
+                    }
+                    .listFooter {
+                        margin: 20px 0 20px 20px;
+                        height: 2px;
+                        border-bottom: 1px dashed transparent;
+                        background: linear-gradient(white,white) padding-box,
+                        repeating-linear-gradient(-45deg,#ccc 0, #ccc 0.25em,white 0,white 0.5em);
+                    }
+                }
+            }
+            li:last-child {
+                .listFooter {
+                    display: none;
+                }
+            }
+        }
+    }
+  }
+  .explanation{width:458px;padding:16px 10px;background:#fff;box-shadow:0 0 5px #ccc;line-height:14px;text-align:left;font-size:12px;color:#999;position:absolute;top:42px;left:-3%; }
+}
+
+@media (min-width: 1700px) {
+    .informVersion .allContent .versionList .progressBar ul .amongProduct .firstHeadline {
+        width: 130px;
+    }
+    .informVersion .allContent .versionList .progressBar ul .amongProduct .allProcess .amongStep .trabeculaBar {
+        width: 160px;
+    }
+    .informVersion .allContent .versionList .progressBar ul .amongProduct .allProcess .amongStep .trabeculaBar .serialNum:before,
+    .informVersion .allContent .versionList .progressBar ul .amongProduct .allProcess .amongStep .trabeculaBar .serialNum:after{
+        width: 68px;
+    }
+    .trabeculaBar:first-of-type{.serialNum{&:before{width:0;height:0;}}}
+    .trabeculaBar:last-of-type{.serialNum{&:after{width:0;height:0;}}}
+}

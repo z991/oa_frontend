@@ -1,0 +1,247 @@
+.container {
+    width: 100%;
+    height: auto;
+    // 下拉选择样式
+    .select_container {
+        width: 100%;
+        height: 120px;
+        overflow: hidden;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        border-radius: 5px;
+        background: #ffffff;
+        // box-shadow: 0 0 6px #999999;
+        .select_module {
+            width: 20%;
+            height: 32px;
+            padding: 14px;
+            display: flex;
+            justify-content: space-between;
+            span{
+                width: 30%;
+                height: 32px;
+                line-height: 32px;
+                font-size: 14px;
+                font-weight: bold;
+                overflow: hidden;
+            }
+            .el-select {
+                width: 70%;
+            }
+        }
+        .block {
+            padding: 14px;
+            min-width: 350px;
+        }
+    }
+    // 咨询量总数
+    .count_container {
+        height: 120px;
+        margin: 15px 0;
+        display: flex;
+        justify-content: space-between;
+        .count_module {
+            width: calc(50% - 7.5px);
+            background: #ffffff;
+            border-radius: 5px;
+            overflow: hidden;
+            // box-shadow: 0 0 6px #999999;
+            .count_header {
+                width: 100%;
+                height: 40px;
+                line-height: 40px;
+                text-align: left;
+                padding-left: 20px;
+                font-size: 16px;
+                color: #ffffff;
+                font-weight: bolder;
+            }
+            .count_content{
+                width: 100%;
+                height: 80px;
+                overflow: hidden;
+                .count_counter  {
+                    width: 65%;
+                    height: 40px;
+                    margin: 20px 0 20px 35%;
+                    line-height: 40px;
+                    overflow: hidden;
+                    img{
+                        width: 26px;
+                        height: 26px;
+                        margin: 7px 14px 7px 0;
+                        display: inline-block;
+                    }
+                    .counter_num {
+                        width: calc(100% - 50px);
+                        float: right;
+                        font-size: 24px;
+                        color: #666666;
+                        font-weight: bold;
+                        text-align: left;
+                    }
+                    @media screen and (min-width: 1400px) and (max-width: 1500px) {
+                        .counter_num {
+                              font-size: 22px;
+                          }
+                      }
+                      @media screen and (min-width: 1300px) and (max-width: 1399px) {
+                        .counter_num {
+                              font-size: 20px;
+                          }
+                      }
+                      @media screen and (min-width: 1200px) and (max-width: 1299px) {
+                        .counter_num {
+                              font-size: 18px;
+                          }
+                      }
+                      @media screen and (min-width: 1100px) and (max-width: 1199px) {
+                        .counter_num {
+                              font-size: 18px;
+                          }
+                      }
+                      @media screen and (min-width: 1000px) and (max-width: 1099px) {
+                        .counter_num {
+                              font-size: 16px;
+                          }
+                      }
+                      @media screen and (min-width: 768px) and (max-width: 999px) {
+                        .counter_num {
+                              font-size: 14px;
+                          }
+                      }
+                }
+            }
+        }
+    }
+    // 图标样式
+    .echart_container {
+        width: 100%;
+        height: 450px;
+        background: #ffffff;
+        margin: 15px 0;
+        // box-shadow: 0 0 6px #999999;
+        border-radius: 5px;
+        overflow: hidden;
+        .echart_header {
+            width: 100%;
+            height: 60px;
+            overflow: hidden;
+            line-height: 60px;
+            display: flex;
+            padding: 10px 15px 0;
+            box-sizing: border-box;
+            justify-content: space-around;
+            overflow: hidden;
+            .echart_header_taregt, .echart_header_selected , .echart_header_time {
+                display: flex;
+                justify-content: space-around;
+                line-height: 50px;
+            }
+            .echart_header_taregt {
+                width: 16%;
+                padding-top: 9px;
+                justify-content: space-between;
+            }
+            .echart_header_selected {
+                width: 84%;
+                span{
+                    width: 10%;
+                    font-size: 16px;
+                    overflow: hidden;
+                    text-align: center;
+                }
+                .channel_checked {
+                    display: inline-block;
+                    width: 90%;
+                    font-size: 16px;
+                    overflow: hidden;
+                    .checked_container {
+                        display: inline-block;
+                        margin: 10px 15px 0;
+                        height: 30px;
+                        width: 12%;
+                        line-height: 30px;
+                        font-size: 14px;
+                        box-sizing: border-box;
+                        border: 1px solid #dcdfe6;
+                        border-radius: 5px;
+                        overflow: hidden;
+                        float: left;
+                        background: #eff2f7;
+                        div {
+                            width: 75%;
+                            float: left;
+                            padding-left: 5px;
+                            overflow: hidden;
+                            box-sizing: border-box;
+                            text-align: center;
+                        }
+                        i {
+                            width: 15%;
+                            float: right;
+                            line-height: 30px;
+                            margin-right: 5px;
+                        }
+                        &:hover{
+                            cursor: pointer;
+                        }
+                    }
+                }
+            }
+            .echart_header_time {
+                // width: 20%;
+                div{
+                    width: 100px;
+                    height: 30px;
+                    border: 1px solid #409EFF;
+                    line-height: 30px;
+                    margin-top: 10px;
+                    border-radius: 15px;
+                    span{
+                        display: inline-block;
+                        width: 50%;
+                        text-align: center;
+                        border-radius: 15px;
+                    }
+                }
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+        }
+        .echart_content {
+            width: 100%;
+            height: calc(100% - 60px);
+            display: flex;
+            justify-content: space-around;
+            .echart_left,.echart_right {
+                width: 50%;
+                height: 100%;
+                padding: 20px;
+                box-sizing: border-box;
+            }
+            .echart_left #myChart1 ,.echart_right #myChart2 {
+                width: 100%;
+                height: 330px;
+            }
+        }
+    }
+    // 时间切换
+    .time_checked {
+        background: #409EFF;
+        color: #ffffff;
+    }
+    // 表格样式
+    .table_container {
+        height: auto;
+        width: 100%;
+        margin: 0;
+        .el-table {
+            border-radius: 5px;
+            // box-shadow: 0 0 6px #999999;
+        }
+    }
+    .export{height:32px;margin:14px;}
+}

@@ -1,0 +1,3 @@
+export const OA_BREADCRUMBD = 'OA_BREADCRUMBD',
+             OA_LIBRARY= 'OA_LIBRARY',
+             LOG_FUNCTION="LOG_FUNCTION";

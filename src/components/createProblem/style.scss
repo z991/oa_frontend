@@ -1,0 +1,27 @@
+.createProblem{
+  text-align:left;
+  p{
+    label{
+      display:inline-block;
+      width:120px;
+    }
+  }
+  .el-steps {
+    padding: 10px 0;
+  }
+  .btnClass{
+    margin-top:15px;
+    border-top:1px solid rgb(217,217,217);
+    text-align:right;
+    padding:20px 10px ;
+    box-sizing:border-box;
+    background:#fff;
+    height:65px;
+    // border-radius:5px;
+  }
+}
+.el-checkbox {
+  width: 100%;
+  text-align: left;
+  margin: 8px 0;
+}

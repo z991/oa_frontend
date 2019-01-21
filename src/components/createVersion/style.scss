@@ -1,0 +1,44 @@
+/*
+ * @Author: liuqian 
+ * @Date: 2018-09-13 14:01:43 
+ * @Last Modified by: liuqian
+ * @Last Modified time: 2018-10-11 17:39:25
+ */
+.createVersion{width:100%;margin:auto;background:#edf2f5;
+    .titleDefault{padding-left:20px;}
+    .serviceTitle{width:100%;height:36px;line-height: 36px;background:#fff;margin:15px 0;color:#666;font-size:14px;text-align: left;border-radius:5px;}
+    .revise{width:100%px;background-color:white;
+    .bao{margin:0;text-align:right;height:72px;border-top:1px solid #d2d8db;}
+    input:focus{border: 1px solid red;}
+    .inContent{ height: 656px;width:650px;margin-left:60px;padding-top:9px;
+      .commodify{span{margin: 0 30px 0 10px;}}
+      .time{display:inline-block;width:468px;height:30px;border:1px solid #d2d8db;border-radius:5px;
+      input{width:150px;border:none;}}
+      img{vertical-align: middle;}
+      .fill{font-style:normal;color:red;margin-left:5px;}
+    }
+    .bao{
+        a{display: inline-block;width: 58px;height:30px;text-align: center;line-height: 30px;border: 1px solid gray;border-radius: 5px;padding:0;margin:0;}
+        .qub{margin:20px 20px 20px 10px;}
+    }
+    .serAdd{text-align:left;font-size:0;margin:14px;text-align:left;
+        a{display:inline-block;width:20px;height:20px;padding:0;vertical-align:middle;}
+        .addAddress{background:url(../../assets/add.png) no-repeat;margin:0 10px;}
+        .addAddress:active{background: url(../../assets/add1.png) no-repeat;}
+        .addIp{background:url(../../assets/ip.png) no-repeat;margin:0 10px;}
+        .addIp:active{background: url(../../assets/ip1.png) no-repeat;}
+        .quu{background:url(../../assets/dele.png) no-repeat;margin-top: 4px;}
+    }
+    .verExplain{label{vertical-align: top;}.fill{vertical-align: top;}img{vertical-align: top;margin-left:6px;}}
+    .clo{background:url(../../assets/close.png) no-repeat;display:inline-block;width:11px;height:11px;position:absolute;top:20px;right:20px;}
+    .serAdd{
+    label{width:80px;text-align:right;margin-right:20px;display:inline-block;font-size: 12px;color:#666;}}
+    .verExplain{position:relative;}
+    .revise>p{margin:14px;text-align:left;}
+    input[type="text"],input[type="number"]{width:458px;height:30px;padding-left:10px;border-radius:5px;border:1px solid #d2d8db;}
+    textarea{width:458px;height:210px;padding-left:10px;padding-top:8px;border-radius:5px;border:1px solid #d2d8db;}
+    select{height:32px;border-radius:5px;border:1px solid #d2d8db;margin-left:-3px;padding-left:6px;}
+    option{height:26px;display:block;padding-top:5px;color:#666;}}
+    #date.dat{left:100px;}
+    .explanation{width:458px;padding:16px 10px;background:#fff;box-shadow:0 0 5px #ccc;text-align:left;font-size:12px;color:#999;position:absolute;top:30px;right:-30%; }
+}

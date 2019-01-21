@@ -1,0 +1,304 @@
+.customerInfo {
+    * {
+        box-sizing: border-box;
+    }
+    width: 100%;
+    .header {
+        width: 100%;
+        height: 40px;
+        line-height: 40px;
+        line-height: 40px;
+        background: #fff;
+        border-radius: 6px;
+        padding-left: 15px;
+        text-align: left;
+        display: flex;
+        justify-content: space-between;
+    }
+    .container {
+        width: 100%;
+        height: calc(100% - 55px);
+        margin: 15px 0 0;
+        display: flex;
+        justify-content: space-between;
+        .infoLeft, .infoRight {
+            background: #fff;
+            border-radius: 6px;
+            overflow: hidden;
+        }
+        .infoLeft{
+            width: calc(60% - 8px);
+        }
+        .infoRight{
+            background: none;
+            width: calc(40% - 8px);
+        }
+    }
+}
+
+// left--------------------
+.infoLeft {
+    .leftHeader{
+        width: 100%;
+        height: 40px;
+        line-height: 40px;
+        padding-left: 15px;
+        text-align: left;
+        border-bottom: 2px solid rgb(237, 242, 245);
+        display: flex;
+        justify-content: flex-start;
+        &:hover {
+            cursor: pointer;
+        }
+        span {
+            text-align: center;
+            display: inline-block;
+            height: 40px;
+            margin: 0 15px;
+        } 
+        span:nth-child(1) {
+            width: 80px;
+        }
+        span:nth-child(2) {
+            width: 40px;
+        }
+    }
+    .leftContainer {
+        width: 100%;
+        height: calc(100% - 40px);
+        .box {
+            margin: 15px;
+            border: 1px solid  #e3e6e7;
+            border-radius: 6px;
+        }
+        .abloutContainer {
+            height: 50px;
+            line-height: 50px;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            padding: 0 20px;
+        }
+        .abloutContainer span:nth-child(2){
+            width: 120px;
+            text-align: left;
+        }
+    }
+}
+.abloutContainer .bg {
+    width: 30px;
+    height: 30px;
+    margin: 0 20px 0 0;
+    display: inline-block;
+}
+.abloutContainer .el-button {
+    width: 100px;
+    height: 35px;
+}
+.leftTabActive {
+    border-bottom: 2px solid #409EFF;
+    color: #409EFF;
+}
+.box .boxHeader {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 15px;
+    text-align: left;
+    background: #e3e6e7;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    div{
+        width: calc(100% - 60px);
+    }
+}
+.box .boxContent>ul {
+    padding-left: 30px;
+}
+.box .boxContent ul li{
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+    text-align: left;
+    display: flex;
+    margin: 10px 0;
+    justify-content: space-between;
+    padding-right: 30px;
+    &:hover{cursor: pointer;}
+    span:nth-child(1) {
+        width: 150px;
+        display: inline-block;
+    }
+    span:nth-child(2) {
+        width: calc(100% - 150px);
+        display: inline-block;
+        color: #b5b7b8;
+    } 
+}
+.box .boxContent .infoBox {
+    height: 160px;
+    .infoAdd ul li {
+        padding-right: 0;
+        span:nth-child(1) {
+            width: 100px;
+            display: inline-block;
+        }
+        span:nth-child(2) {
+            width: calc(100% - 100px);
+            display: inline-block;
+        } 
+    }
+}
+.box .boxContent>div{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    .openBox {
+        width:  180px;
+        line-height: 35px;
+        text-align: left;
+        display: inline-block;
+        padding-left: 30px;
+    }
+    .openModule, .progressList {
+        width: calc(100% - 180px);
+        display: inline-block;
+    }
+    .el-textarea {
+        padding-right: 30px;
+        width: calc(100% - 180px);
+        display: inline-block;
+    }
+}
+.el-checkbox {
+    width: 100%;
+    text-align: left;
+    margin: 8px 0;
+}
+// right--------------------
+.infoRight {
+    .rightTime, .rightTabs {
+        background: #fff;
+        border-radius: 6px;
+    }
+    .rightTabs {
+        margin-bottom: 15px;
+        height: calc(100%  - 230px);
+    }
+    .rightTime {
+        height: 215px;
+        .timeHeader {
+            height: 40px;
+            line-height: 40px;
+            text-align: left;
+            padding-left: 15px;
+            border-bottom: 1px solid #e3e6e7;
+        }
+        ul li {
+            height: 35px;
+            line-height: 35px;
+            text-align: left;
+            padding-left: 30px;
+            span:nth-child(1) {
+                width: 120px;
+                display: inline-block;
+            }
+            span:nth-child(2) {
+                width: calc(100% - 120px);
+                display: inline-block;
+            } 
+        }
+    }
+}
+.listsContainer {
+    li{
+        margin-left: 30px;
+        box-sizing: border-box;
+        position: relative;
+        display: flex;
+        justify-content: flex-start;
+        .listLeft {
+            width: 10px;
+            .circle {
+                margin-top: 13px;
+                width: 10px;
+                height: 10px;
+                border-radius: 50%;
+                background: #409EFF;
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+            .line {
+                border-left: 1px solid #e3e6e7;
+                margin-left: 4px;
+                height: calc(100% - 10px);
+            }
+        }
+        .listRight {
+            width: calc(100% - 40px);
+            .listTit {
+                height: 35px;
+                line-height: 35px;
+                overflow: hidden;
+                display: flex;
+                justify-content: space-between;
+            }
+            .listDesc {
+                width: 60%;
+                text-align: left;
+                padding-left: 5px;
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+            .listTime {
+                width: 40%;
+                color: #b6b6b8;
+            }
+            .listContent {
+                margin-bottom: 15px;
+            }
+            .listContent>div{
+                text-align: left;
+                padding-left: 10px;
+            }
+            .listContent ul li{
+                height: 30px;
+                line-break: 30px;
+                color: #a6a8a8;
+                margin: 5px 0 5px 5px;
+            }
+            .listFooter {
+                margin: 10px 0;
+                border-bottom: 1px dotted #3f3f3f;
+            }
+        }
+    }
+    li:last-child {
+        .line, .listFooter {
+            display: none;
+        }
+    }
+}
+.circle {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+}
+
+// 适配处理
+@media screen and (min-width: 1200px) and (max-width: 1399px) {
+    .listDesc {
+        font-size: 12px;
+    }
+    .listTime {
+        font-size: 12px;
+    }
+}
+@media screen and (min-width: 1000px) and (max-width: 1199px) {
+    .listTime {
+        display: none;
+    }
+}
